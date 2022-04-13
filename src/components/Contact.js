@@ -1,22 +1,112 @@
 import React from 'react';
+import { Columns } from 'react-bulma-components';
+import { Notification } from 'react-bulma-components';
+import { Form } from 'react-bulma-components';
+import { Button } from 'react-bulma-components';
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <div class="hero is-fullheight has-background-black ">
+      <Columns>
+        <Columns.Column offset={4} size={4}>
+          <Notification color="black">
+            <article class="media notification has-background-black bordercol">
+              <div class="media-content has-text-white">
+                <div class="content">
+                  <h1 class="title is-size-4 center"><a id="contacts" href="mailto:pasqualininic@gmail.com">Mail</a></h1>
+                </div>
+              </div>
+            </article>
+          </Notification>
+        </Columns.Column>
+
+        <Columns.Column offset={4} size={4}>
+          <Notification color="black">
+            <article class="media notification has-background-black bordercol">
+              <div class="media-content has-text-white">
+                <div class="content">
+                  <h1 class="title is-size-4 center"><a id="contacts" href=" tel: +61 466505170">Phone</a></h1>
+                </div>
+              </div>
+            </article>
+          </Notification>
+        </Columns.Column>
+
+        <Columns.Column offset={4} size={4}>
+          <Notification color="black">
+            <article class="media notification has-background-black bordercol">
+              <div class="media-content has-text-white">
+                <div class="content">
+                  <h1 class="title is-size-4 center"><a id="contacts" href="https://github.com/Nico749" target="_blank" rel="noopener noreferrer">GitHub Profile</a></h1>
+                </div>
+              </div>
+            </article>
+          </Notification>
+        </Columns.Column>
+
+        <Columns.Column offset={4} size={4}>
+          <Notification color="black">
+            <article class="media notification has-background-black bordercol">
+              <div class="media-content has-text-white">
+                <div class="content">
+                  <h1 class="title is-size-4 center"><a id="contacts" href="https://www.linkedin.com/in/nico-pasqualini/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h1>
+                </div>
+              </div>
+            </article>
+          </Notification>
+        </Columns.Column>
+
+        <Columns.Column offset={4} size={4}>
+          <Notification color="black">
+            <article class="media notification has-background-black bordercol">
+              <div class="media-content has-text-white">
+                <div class="content">
+                  <h1 class="title is-size-4 center"><a id="contacts" href="/Demo_photos/Resume Pasqualini.pdf" target="_blank" rel="noopener noreferrer">Curriculum</a></h1>
+                </div>
+              </div>
+            </article>
+          </Notification>
+        </Columns.Column>
+
+        <Columns.Column offset={2} size={8}>
+          <Notification color="black">
+
+            <Form.Field>
+              <Form.Label>Name</Form.Label>
+              <Form.Control>
+                <Form.Input />
+              </Form.Control>
+            </Form.Field>
+
+            <Form.Field>
+              <Form.Label>Mail</Form.Label>
+              <Form.Control>
+                <Form.Input />
+              </Form.Control>
+            </Form.Field>
+
+            <Form.Field>
+              <Form.Label>Message</Form.Label>
+              <Form.Control>
+                <Form.Textarea />
+              </Form.Control>
+            </Form.Field>
+
+            <Form.Field kind="group">
+              <Form.Control>
+                <Button color="link">Submit</Button>
+              </Form.Control>
+              <Form.Control>
+                <Button color="link" colorVariant="light">
+                  Cancel
+                </Button>
+              </Form.Control>
+            </Form.Field>
+
+          </Notification>
+        </Columns.Column>
+
+      </Columns>
     </div>
   );
 }
