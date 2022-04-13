@@ -7,7 +7,7 @@ import { Button } from 'react-bulma-components';
 export default function Contact() {
   return (
     <div class="hero is-fullheight has-background-black ">
-      <Columns>
+      <Columns class ="is-vcentered">
         <Columns.Column offset={4} size={4}>
           <Notification color="black">
             <article class="media notification has-background-black bordercol">
