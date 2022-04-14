@@ -1,0 +1,14 @@
+*{
+    background-color:black;
+    
+}
+
+li{
+    display: inline-block;
+    
+    
+}
+
+a:hover{
+    text-decoration: none;
+}

@@ -4,7 +4,7 @@ import { Notification } from 'react-bulma-components';
 import { Form } from 'react-bulma-components';
 import { Button } from 'react-bulma-components';
 
-export default function Contact() {
+export default function Contacts() {
   return (
     <div class="hero is-fullheight has-background-black ">
       <Columns class ="is-vcentered">

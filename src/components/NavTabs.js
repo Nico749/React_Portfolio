@@ -1,57 +1,119 @@
-import React from 'react';
+import React, { useState } from 'react';
+import '../styles/NavTabs.css';
 
-// TODO: Add a comment explaining how we are able to extract the key value pairs from props
 
 function NavTabs({ currentPage, handlePageChange }) {
+  const [isActive, setisActive] = useState(false);
+  function MouseOver(event) {
+    event.target.style.background = 'Tomato';
+  }
+  function MouseOut(event){
+    event.target.style.background="black";
+  }
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
+    <>
 
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-          Home
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
-          //  TODO: Add a comment explaining what this logic is doing
+{/* <nav class="navbar " role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
 
-          className={currentPage === 'About' 
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item " href="#home"
+              onClick={() => handlePageChange('Home')}
+              className={`${'navbar-item has-text-white'} currentPage === 'Home' 
           ? 'nav-link active' 
-          : 'nav-link'}
-        >
-          About
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#projects"
-          onClick={() => handlePageChange('Projects')}
-          //  TODO: Add a comment explaining what this logic is doing
+          : 'nav-link'  `}>
+        Home
+      </a>
 
-          className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
-        >
-          Projects
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#contact"
-          //  TODO: Add a comment explaining what this logic is doing
+      <a class="navbar-item has-text-white">
+        Documentation
+      </a>
 
-          onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+      
+    </div>
+
+   
+  </div>
+</nav> */}
+
+
+
+
+      <nav className="navbar" role="navigation" aria-label="main navigation">
+        <div className="navbar-brand">
+        
+          <a 
+            onClick={() => {
+              setisActive(!isActive);
+            }}
+            role="button"
+            className={`navbar-burger burger has-text-white${isActive ? "is-active" : ""}`}
+            //aria-label="menu"
+            // aria-expanded="false"
+            // data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div
+          
+          className={`navbar-menu ${isActive ? "is-active" : ""}`}
         >
-          Contact
-        </a>
-      </li>
-    </ul>
+          <div className="navbar-start">
+            <ul ><li >
+            <a onMouseOver={MouseOver} onMouseOut={MouseOut}
+              href="#home"
+              onClick={() => handlePageChange('Home')}
+              className={`${'navbar-item has-text-white'} currentPage === 'Home' 
+          ? 'nav-link active' 
+          : 'nav-link'  `}
+            >
+              Home
+            </a></li><li>
+            <a onMouseOver={MouseOver} onMouseOut={MouseOut}
+              href="#about"
+              onClick={() => handlePageChange('About')}
+              className={`${'navbar-item has-text-white'} currentPage === 'About' 
+          ? 'nav-link active' 
+          : 'nav-link'`}
+            >
+              About
+            </a></li><li>
+            <a onMouseOver={MouseOver} onMouseOut={MouseOut}
+              href="#projects"
+              onClick={() => handlePageChange('Projects')}
+              className={`${'navbar-item has-text-white'} currentPage === 'Projects' 
+          ? 'nav-link active' 
+          : 'nav-link'`}
+            >
+              Projects
+            </a></li><li>
+            <a onMouseOver={MouseOver} onMouseOut={MouseOut}
+              href="#contacts"
+              onClick={() => handlePageChange('Contacts')}
+              className={`${'navbar-item has-text-white'} currentPage === 'Contacts' 
+          ? 'nav-link active' 
+          : 'nav-link'`}
+            >
+              Contacts
+            </a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    </>
   );
 }
 
