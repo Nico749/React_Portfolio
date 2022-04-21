@@ -4,6 +4,7 @@ import { Form } from 'react-bulma-components';
 import { Button } from 'react-bulma-components';
 import '../styles/Contacts.css'
 import '../styles/PortfolioContainer.css'
+import Pdf from '../Demo_photos/Resume Pasqualini.pdf';
 
 
 export default function Contacts() {
@@ -54,7 +55,7 @@ useEffect(() => {
         <Columns.Column offset={4} size={4} className='col'>
           <div >
             <div class="content">
-              <h1 class="title is-size-4 center"><a id="contacts" href="/Demo_photos/Resume Pasqualini.pdf" target="_blank" rel="noopener noreferrer">Curriculum</a></h1>
+              <h1 class="title is-size-4 center"><a id="contacts" href={Pdf}  target="_blank" rel="noopener noreferrer">Curriculum</a></h1>
             </div>
           </div>
         </Columns.Column>
