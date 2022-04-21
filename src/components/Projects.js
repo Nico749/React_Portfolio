@@ -3,7 +3,6 @@ import Footer from './Footer'
 import 'bulma/css/bulma.min.css';
 import { Columns } from 'react-bulma-components';
 import { Card } from 'react-bulma-components';
-import { Media } from 'react-bulma-components';
 import '../styles/Projects.css'
 import '../styles/PortfolioContainer.css'
 import weatherScreen from '../Demo_photos/Weather_Screenshot.png'
@@ -27,9 +26,9 @@ export default function Projects() {
             />
 
             <Card.Content >
-              <Media>
-                <a href="https://p-e-t-finder.herokuapp.com/" target="_blank" rel="noopener noreferrer" id='cardtitle' className=' is-size-3 has-text-black'> PET FINDERRRRR </a>
-              </Media>
+            
+                <a href="https://p-e-t-finder.herokuapp.com/" target="_blank" rel="noopener noreferrer" id='cardtitle' className=' is-size-3 has-text-black'> PET <br></br> FINDER </a>
+             
               <p id='cardbody' className="is-size-5 has-text-black">
                 Want to find the right pet for you?
                 Pet Finder is a noticeboard where users can view pets that are
@@ -51,9 +50,9 @@ export default function Projects() {
             />
 
             <Card.Content >
-              <Media>
+             
                 <a href="https://findthemusic.herokuapp.com" target="_blank" rel="noopener noreferrer" id='cardtitle' className=' is-size-3 has-text-black'>FIND THE MUSIC</a>
-              </Media>
+             
               <p id='cardbody' className="is-size-5 has-text-black">
                 Find The Music allows you to
                 insert and search for a location, displaying it on a map with a
@@ -77,9 +76,9 @@ export default function Projects() {
             />
 
             <Card.Content >
-              <Media>
+            
                 <a href="https://github.com/Nico749/Weather_Dashboard" target="_blank" rel="noopener noreferrer" id='cardtitle' className=' is-size-3 has-text-black'>WEATHER DASHBOARD</a>
-              </Media>
+           
               <p id='cardbody' className="is-size-5 has-text-black">
                 Worried about the weather? With this intuitive app anyone can
                 search for a city and the weather for that location is
@@ -102,9 +101,9 @@ export default function Projects() {
             />
 
             <Card.Content >
-              <Media>
+          
                 <a href="https://drive.google.com/file/d/1NCzj-cHnNf8OwPI1rGV62xxY-93ejvKu/view" target="_blank" rel="noopener noreferrer" id='cardtitle' className=' is-size-3 has-text-black'>EMPLOYEE TRACKER  </a>
-              </Media>
+             
               <p id='cardbody' className="is-size-5 has-text-black">
                 The application allows to manage a company's database by viewing,
                 adding, updating and deleting data. The user is presented with a list
