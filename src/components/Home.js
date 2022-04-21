@@ -10,10 +10,9 @@ const styles = {
 
 export default function Home() {
   return (
-    <div className="hero is-fullheight has-background-black ">
-      
-
-        
+    <div className='has-background-black'>
+    <div className="hero is-fullheight ">
+              
         <div className=" hero-body">
             <div className="container">
               <div className='img-cont'>
@@ -35,6 +34,7 @@ export default function Home() {
         </div>
 
 
+    </div>
     </div>
   );
 }

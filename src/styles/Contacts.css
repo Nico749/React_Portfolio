@@ -1,0 +1,20 @@
+a{
+    color:silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col{
+    border: solid tomato 2px;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+a:hover{
+    color: tomato;
+}
+*{
+    background-color:black;
+    
+}

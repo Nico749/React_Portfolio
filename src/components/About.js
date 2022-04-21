@@ -1,8 +1,33 @@
 import React from 'react';
+import AnimatedText from 'react-animated-text-content';
+import '../styles/About.css'
 
 export default function About() {
   return (
     <div>
+
+
+<AnimatedText
+  type="words" // animate words or chars
+
+  animation={{
+    x: '200px',
+    y: '-20px',
+    scale: 1.1,
+    ease: 'ease-in-out',
+  }}
+  animationType="float"
+  interval={0.06}
+  duration={1.3}
+  tag="p"
+  className="animated-paragraph white"
+  includeWhiteSpaces
+  threshold={0.1}
+  rootMargin="20%"
+>
+  ABOUT
+</AnimatedText>;
+
       <section class="hero is-fullheight has-background-black ">
                 {/* <h1 class="wavy center">
                     <span style="--i:1">A</span>

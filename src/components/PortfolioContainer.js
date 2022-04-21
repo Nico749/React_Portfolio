@@ -4,11 +4,11 @@ import Projects from './Projects';
 import About from './About';
 import Contacts from './Contacts';
 import Home from './Home'
+import '../styles/PortfolioContainer.css';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
- 
   const renderPage = () => {
     if (currentPage === 'Home') {
       return <Home />;

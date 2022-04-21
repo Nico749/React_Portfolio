@@ -12,41 +12,6 @@ function NavTabs({ currentPage, handlePageChange }) {
   }
   return (
     <>
-
-{/* <nav class="navbar " role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item " href="#home"
-              onClick={() => handlePageChange('Home')}
-              className={`${'navbar-item has-text-white'} currentPage === 'Home' 
-          ? 'nav-link active' 
-          : 'nav-link'  `}>
-        Home
-      </a>
-
-      <a class="navbar-item has-text-white">
-        Documentation
-      </a>
-
-      
-    </div>
-
-   
-  </div>
-</nav> */}
-
-
-
-
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
         
