@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from './Footer'
+import Icons from './Icons'
 import '../styles/About.css'
 import '../styles/PortfolioContainer.css'
 
@@ -24,15 +25,11 @@ export default function About() {
               Once the Master was over, I decided to fulfill my old passion and I dove into coding
               by enrolling at the Monash University Coding Bootcamp.
             </div>
-
-
           </div>
-          
-
         </div>
-        <Footer />
+        <Icons />
       </section>
-
+      <Footer />
     </div>
   );
 }

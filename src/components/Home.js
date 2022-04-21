@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer'
 import '../styles/Home.css';
 import personalPhoto from '../Demo_photos/personal-photo-modified.png'
 const styles = {
@@ -32,7 +33,7 @@ export default function Home() {
         <div>
 
         </div>
-
+        <Footer />
 
     </div>
     </div>

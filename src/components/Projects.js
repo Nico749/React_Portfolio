@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer'
 import 'bulma/css/bulma.min.css';
 import { Columns } from 'react-bulma-components';
 import { Card } from 'react-bulma-components';
@@ -29,7 +30,7 @@ export default function Projects() {
               <Media>
                 <a href="https://p-e-t-finder.herokuapp.com/" target="_blank" rel="noopener noreferrer" id='cardtitle' className=' is-size-3 has-text-black'> PET FINDERRRRR </a>
               </Media>
-              <p id='cardbody' classname="is-size-5 has-text-black">
+              <p id='cardbody' className="is-size-5 has-text-black">
                 Want to find the right pet for you?
                 Pet Finder is a noticeboard where users can view pets that are
                 available for adoption. While any user can view a gallery of available pets,
@@ -53,7 +54,7 @@ export default function Projects() {
               <Media>
                 <a href="https://findthemusic.herokuapp.com" target="_blank" rel="noopener noreferrer" id='cardtitle' className=' is-size-3 has-text-black'>FIND THE MUSIC</a>
               </Media>
-              <p id='cardbody' classname="is-size-5 has-text-black">
+              <p id='cardbody' className="is-size-5 has-text-black">
                 Find The Music allows you to
                 insert and search for a location, displaying it on a map with a
                 list of music events that will take place around that specific area in the upcoming days.
@@ -79,7 +80,7 @@ export default function Projects() {
               <Media>
                 <a href="https://github.com/Nico749/Weather_Dashboard" target="_blank" rel="noopener noreferrer" id='cardtitle' className=' is-size-3 has-text-black'>WEATHER DASHBOARD</a>
               </Media>
-              <p id='cardbody' classname="is-size-5 has-text-black">
+              <p id='cardbody' className="is-size-5 has-text-black">
                 Worried about the weather? With this intuitive app anyone can
                 search for a city and the weather for that location is
                 displayed with also the forecast for the following days. <br></br>
@@ -104,7 +105,7 @@ export default function Projects() {
               <Media>
                 <a href="https://drive.google.com/file/d/1NCzj-cHnNf8OwPI1rGV62xxY-93ejvKu/view" target="_blank" rel="noopener noreferrer" id='cardtitle' className=' is-size-3 has-text-black'>EMPLOYEE TRACKER  </a>
               </Media>
-              <p id='cardbody' classname="is-size-5 has-text-black">
+              <p id='cardbody' className="is-size-5 has-text-black">
                 The application allows to manage a company's database by viewing,
                 adding, updating and deleting data. The user is presented with a list
                 of choices that allows him to opt for: view all the departments, all
@@ -120,6 +121,7 @@ export default function Projects() {
 
 
       </Columns>
+      <Footer />
     </div>
   );
 }
