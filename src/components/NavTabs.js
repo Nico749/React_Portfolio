@@ -20,10 +20,8 @@ function NavTabs({ currentPage, handlePageChange }) {
               setisActive(!isActive);
             }}
             role="button"
-            className={`navbar-burger burger has-text-white${isActive ? "is-active" : ""}`}
-            //aria-label="menu"
-            // aria-expanded="false"
-            // data-target="navbarBasicExample"
+            className={`navbar-burger burger has-text-white ${isActive ? "is-active" : ""}`}
+            
           >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -44,7 +42,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           : 'nav-link'  `}
             >
               Home
-            </a></li><li>
+            </a></li><li >
             <a onMouseOver={MouseOver} onMouseOut={MouseOut}
               href="#about"
               onClick={() => handlePageChange('About')}
@@ -53,7 +51,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           : 'nav-link'`}
             >
               About
-            </a></li><li>
+            </a></li><li >
             <a onMouseOver={MouseOver} onMouseOut={MouseOut}
               href="#projects"
               onClick={() => handlePageChange('Projects')}
@@ -62,7 +60,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           : 'nav-link'`}
             >
               Projects
-            </a></li><li>
+            </a></li><li >
             <a onMouseOver={MouseOver} onMouseOut={MouseOut}
               href="#contacts"
               onClick={() => handlePageChange('Contacts')}
