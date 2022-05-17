@@ -61,7 +61,7 @@ useEffect(() => {
         </Columns.Column>
 
 
-        <Columns.Column offset={2} size={8} >
+        {/* <Columns.Column offset={2} size={8} >
 
           <Form.Field>
             <Form.Label>Name</Form.Label>
@@ -95,7 +95,7 @@ useEffect(() => {
             </Form.Control>
           </Form.Field>
 
-        </Columns.Column>
+        </Columns.Column> */}
 
       </Columns>
     </div>

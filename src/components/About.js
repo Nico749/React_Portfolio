@@ -23,7 +23,7 @@ export default function About() {
               I completed various extra courses regarding that, in a way to combine
               economics and management skills.
               Once the Master was over, I decided to fulfill my old passion and I dove into coding
-              by enrolling at the Monash University Coding Bootcamp.
+              by enrolling at the Monash University Coding Bootcamp. 
             </div>
           </div>
         </div>

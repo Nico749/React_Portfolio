@@ -36,7 +36,13 @@ export default function Projects() {
                 only registered and logged-in users can add a new pet, remove one they posted
                 before and see all the details. <a id="cardlink" href="https://p-e-t-finder.herokuapp.com/" target="_blank" rel="noopener noreferrer">Click here</a> for the
                 deployed version and <a id="cardlink"
-                  href="https://github.com/Nico749/Pet_Finder" target="_blank" rel="noopener noreferrer">here for the GitHub</a> repo!
+                  href="https://github.com/Nico749/Pet_Finder" target="_blank" rel="noopener noreferrer">here for the GitHub</a> repo!<br></br>
+                  Built with:
+                  <ul className='techlist'>
+                    <li className='tech'>- Sequelize</li><br></br>
+                    <li className='tech'>- Handlebars</li><br></br>
+                    <li className='tech'>- NodeJS</li><br></br>
+                  </ul>
               </p>
             </Card.Content>
           </Card>
@@ -60,7 +66,13 @@ export default function Projects() {
                 The deployed version can be found {' '}
                 <a id="cardlink" href="https://findthemusic.herokuapp.com" target="_blank" rel="noopener noreferrer">  here </a>
                 {' '}while {' '} <a id="cardlink"
-                  href="https://github.com/Nico749/Find_The_Music" target="_blank" rel="noopener noreferrer"> this </a> is the relative repo
+                  href="https://github.com/Nico749/Find_The_Music" target="_blank" rel="noopener noreferrer"> this </a> is the relative repo.<br></br>
+                  Built with:
+                  <ul className='techlist'>
+                    <li className='tech'>- JS</li><br></br>
+                    <li className='tech'>- Third Party API</li><br></br>
+                    <li className='tech'>- Bulma CSS</li><br></br>
+                  </ul>
               </p>
             </Card.Content>
           </Card>
@@ -85,7 +97,11 @@ export default function Projects() {
                 displayed with also the forecast for the following days. <br></br>
                 <a id="cardlink" href="https://nico749.github.io/Weather_Dashboard/" target="_blank" rel="noopener noreferrer">Click</a> to see the
                 deployed version and the <a id="cardlink"
-                  href="https://github.com/Nico749/Weather_Dashboard" target="_blank" rel="noopener noreferrer">GitHub</a> repo!
+                  href="https://github.com/Nico749/Weather_Dashboard" target="_blank" rel="noopener noreferrer">GitHub</a> repo!<br></br>
+                  Built with:
+                  <ul className='techlist'>
+                    <li className='tech'>- JS</li><br></br>
+                  </ul>
 
               </p>
             </Card.Content>
@@ -112,7 +128,12 @@ export default function Projects() {
                 them. This application is not deployed because merely backend based, however <a id="cardlink"
                   href="https://drive.google.com/file/d/1NCzj-cHnNf8OwPI1rGV62xxY-93ejvKu/view" target="_blank" rel="noopener noreferrer">this</a> is a short walkthrough video of the working application and
                 <a id="cardlink"
-                  href="https://github.com/Nico749/SQL_Employee_Tracker" target="_blank" rel="noopener noreferrer"> this </a> is its structure and usage.
+                  href="https://github.com/Nico749/SQL_Employee_Tracker" target="_blank" rel="noopener noreferrer"> this </a> is its structure and usage.<br></br>
+                  Built with:
+                  <ul className='techlist'>
+                    <li className='tech'>- MySQL</li><br></br>
+                    <li className='tech'>- NodeJS</li><br></br>
+                  </ul>
               </p>
             </Card.Content>
           </Card>

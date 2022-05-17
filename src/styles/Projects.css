@@ -23,6 +23,15 @@
 .card {
     background-color: #fab66e;
 }
+.techlist {
+    background-color: #fab66e;
+}
+.tech {
+    background-color: #fab66e;
+    font-style: italic;
+    font-weight: bold;
+}
+
 
   .card:hover {
     transform: scale(1.02);
