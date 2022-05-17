@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.abdc5e56.css",
-    "main.js": "/react_portfolio/static/js/main.f5922109.js",
+    "main.css": "/react_portfolio/static/css/main.0aaf401f.css",
+    "main.js": "/react_portfolio/static/js/main.6ef973a6.js",
     "static/media/Event_finder.png": "/react_portfolio/static/media/Event_finder.46a70c095b4614a0b87d.png",
     "static/media/Resume Pasqualini.pdf": "/react_portfolio/static/media/Resume Pasqualini.f093e4d402850a58b3ea.pdf",
     "static/media/pet_homepage.png": "/react_portfolio/static/media/pet_homepage.2536316a79d1dd8fbdd8.png",
@@ -9,11 +9,11 @@
     "static/media/Weather_Screenshot.png": "/react_portfolio/static/media/Weather_Screenshot.e1f3cc5867ae4dc32788.png",
     "static/media/Screenshot_sql.png": "/react_portfolio/static/media/Screenshot_sql.69439ae0f5c62f9cf3e4.png",
     "index.html": "/react_portfolio/index.html",
-    "main.abdc5e56.css.map": "/react_portfolio/static/css/main.abdc5e56.css.map",
-    "main.f5922109.js.map": "/react_portfolio/static/js/main.f5922109.js.map"
+    "main.0aaf401f.css.map": "/react_portfolio/static/css/main.0aaf401f.css.map",
+    "main.6ef973a6.js.map": "/react_portfolio/static/js/main.6ef973a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.abdc5e56.css",
-    "static/js/main.f5922109.js"
+    "static/css/main.0aaf401f.css",
+    "static/js/main.6ef973a6.js"
   ]
 }
