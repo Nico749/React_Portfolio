@@ -9,6 +9,7 @@ import weatherScreen from '../Demo_photos/Weather_Screenshot.png'
 import petScreen from '../Demo_photos/pet_homepage.png'
 import sqlScreen from '../Demo_photos/Screenshot_sql.png'
 import musicScreen from '../Demo_photos/Event_finder.png'
+import shopScreen from '../Demo_photos/nicoshop.png'
 
 
 export default function Projects() {
@@ -84,23 +85,26 @@ export default function Projects() {
           <Card style={{ width: 300, margin: 'auto' }}>
             <Card.Image className=" card-image"
               size="16by9"
-              src={weatherScreen}
+              src={shopScreen}
             />
 
             <Card.Content >
             
-                <a href="https://github.com/Nico749/Weather_Dashboard" target="_blank" rel="noopener noreferrer" id='cardtitle' className=' is-size-3 has-text-black'>WEATHER DASHBOARD</a>
+                <a href="https://drive.google.com/file/d/18hbYqiJbBphxTcxQ9gwVXGTzIKCwPKQV/view" target="_blank" rel="noopener noreferrer" id='cardtitle' className=' is-size-3 has-text-black'>NICO'S SHOP</a>
            
               <p id='cardbody' className="is-size-5 has-text-black">
-                Worried about the weather? With this intuitive app anyone can
-                search for a city and the weather for that location is
-                displayed with also the forecast for the following days. <br></br>
-                <a id="cardlink" href="https://nico749.github.io/Weather_Dashboard/" target="_blank" rel="noopener noreferrer">Click</a> to see the
-                deployed version and the <a id="cardlink"
-                  href="https://github.com/Nico749/Weather_Dashboard" target="_blank" rel="noopener noreferrer">GitHub</a> repo!<br></br>
+                This simple E-Commerce application let you login or register, look for an item, add it to a shopping cart and process a payment. <br></br>
+                The app also have an admin portal in which is possible to add, update and remove users and products.<br></br>
+                <a id="cardlink" href="https://drive.google.com/file/d/18hbYqiJbBphxTcxQ9gwVXGTzIKCwPKQV/view" target="_blank" rel="noopener noreferrer">Click</a> to watch a short walkthrough video of the user portal 
+                or <a id="cardlink" href="https://drive.google.com/file/d/1LAiwQHxgq7AkFBGwfSbF-uLGao-uTm8D/view" target="_blank" rel="noopener noreferrer"> here </a> to see the admin interface. <br></br>
+                <a id="cardlink"
+                  href="https://github.com/Nico749/react-shopping-cart" target="_blank" rel="noopener noreferrer">GitHub</a><br></br>
                   Built with:
                   <ul className='techlist'>
-                    <li className='tech'>- JS</li><br></br>
+                    <li className='tech'>- React</li><br></br>
+                    <li className='tech'>- MongoDB</li><br></br>
+                    <li className='tech'>- NodeJS</li><br></br>
+                    <li className='tech'>- Express</li><br></br>
                   </ul>
 
               </p>
