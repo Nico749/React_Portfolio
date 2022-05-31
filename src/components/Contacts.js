@@ -4,7 +4,7 @@ import { Form } from 'react-bulma-components';
 import { Button } from 'react-bulma-components';
 import '../styles/Contacts.css'
 import '../styles/PortfolioContainer.css'
-import Pdf from '../Demo_photos/Resume Pasqualini.pdf';
+import Pdf from '../Demo_photos/Resume Pasqualini New.pdf';
 
 
 export default function Contacts() {
