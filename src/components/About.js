@@ -14,7 +14,7 @@ export default function About() {
         <div className=" hero-body">
           <div className="columns">
             <div className="column is-6 is-offset-3 has-text-white is-size-5">
-              My name is Nico and I am a Junior Web Developer.
+              Hi! I'm Nico and I am a Junior Web Developer.
               Even if I have always been interested in coding and programming, my background is a bit uncommon
               because during the first years of university I studied economics and then I graduated from University of Bologna in 2018 with a
               Master's Degree in Finance. After that I started my journey in Australia where
