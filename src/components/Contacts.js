@@ -55,7 +55,7 @@ useEffect(() => {
         <Columns.Column offset={4} size={4} className='col'>
           <div >
             <div class="content">
-              <h1 class="title is-size-4 center"><a id="contacts" href={Pdf}  target="_blank" rel="noopener noreferrer">Curriculum</a></h1>
+              <h1 class="title is-size-4 center"><a onclick="dataLayer.push({'color': 'firstDLEvent'});"id="contacts" href={Pdf}  target="_blank" rel="noopener noreferrer">Curriculum</a></h1>
             </div>
           </div>
         </Columns.Column>
