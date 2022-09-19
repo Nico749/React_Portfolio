@@ -59,14 +59,7 @@ useEffect(() => {
             </div>
           </div>
         </Columns.Column>
-        <Columns.Column offset={4} size={4} className='col'>
-          <div >
-            <div class="content">
-            <button onclick="window.dataLayer.push({'event': 'login'});" style={{"color":"white"}}>Button 1</button>
-
-            </div>
-          </div>
-        </Columns.Column>
+       
 
 
         {/* <Columns.Column offset={2} size={8} >
