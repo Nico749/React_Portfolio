@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.582e68ce.css",
-    "main.js": "/react_portfolio/static/js/main.8f5395da.js",
+    "main.js": "/react_portfolio/static/js/main.ba79eecb.js",
     "static/media/Event_finder.png": "/react_portfolio/static/media/Event_finder.46a70c095b4614a0b87d.png",
     "static/media/Resume_Pasqualini.pdf": "/react_portfolio/static/media/Resume_Pasqualini.e78e054b9a0cf9930b04.pdf",
     "static/media/pet_homepage.png": "/react_portfolio/static/media/pet_homepage.2536316a79d1dd8fbdd8.png",
@@ -13,10 +13,10 @@
     "static/media/FinancialAna.png": "/react_portfolio/static/media/FinancialAna.29973b1a681b4e8384e1.png",
     "index.html": "/react_portfolio/index.html",
     "main.582e68ce.css.map": "/react_portfolio/static/css/main.582e68ce.css.map",
-    "main.8f5395da.js.map": "/react_portfolio/static/js/main.8f5395da.js.map"
+    "main.ba79eecb.js.map": "/react_portfolio/static/js/main.ba79eecb.js.map"
   },
   "entrypoints": [
     "static/css/main.582e68ce.css",
-    "static/js/main.8f5395da.js"
+    "static/js/main.ba79eecb.js"
   ]
 }
