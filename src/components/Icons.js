@@ -28,26 +28,34 @@ export default function Icons() {
             <div class="grid-container">
                 
                     <div>
-                        <SiTableau id="icon" color="white" size="4rem" />
-                        <SiGoogletagmanager id="icon" color="blue" size="4rem" />
-                        {/* <SiPandas id="icon" color="darkblue" size="4rem" /> */}
-                        <DiMysql id="icon" color="orange" size="4rem" />
-                        <SiGoogleanalytics id="icon" color="orange" size="4rem" />
-                        <SiSequelize id="icon" color="#2069fa" size="4rem" />
-                        <FaGithub id="icon" color="white" size="4rem" />
-                        <FaGit id="icon" color="white" size="4rem" />
-                        <FaHtml5 id="icon" color="red" size="4rem" />
-                        <FaCss3Alt id="icon" color="blue" size="4rem" />
-                        <FaJsSquare id="icon" color="yellow" size="4rem" />
-                        <FaNode id="icon" color="green" size="4rem" />
+                       <div class = 'centered-label'><SiTableau id="icon" color="white" size="4rem" /> Tableau</div>
+                       <div class = 'centered-label'><SiSequelize id="icon" color="#2069fa" size="4rem" /> Sequelize</div>
+                       <div class = 'centered-label'><DiMongodb id="icon" color="green" size="4rem" /> MongoDB</div>
+                       
+                    </div> 
+                    <div>
+                       <div class = 'centered-label'><SiGoogletagmanager id="icon" color="blue" size="4rem" />Tag Manager</div>  
+                       <div class = 'centered-label'><SiPandas id="icon" color="darkblue" size="4rem" />Python Pandas</div>                       
+                       <div class = 'centered-label'><FaNode id="icon" color="green" size="4rem" /> NodeJS</div>
+                       <div class = 'centered-label'><FaCss3Alt id="icon" color="blue" size="4rem" /> CSS</div>
+                       
+                    </div>  
+                    <div>
+                       <div class = 'centered-label'><SiGoogleanalytics id="icon" color="orange" size="4rem" />Google Analytics </div> 
+                       <div class = 'centered-label'><FaGithub id="icon" color="white" size="4rem" /> GitHub</div>
+                       <div class = 'centered-label'><FaJsSquare id="icon" color="yellow" size="4rem" /> JS</div>
+                       <div class = 'centered-label'><FaHtml5 id="icon" color="red" size="4rem" /> HTML</div>
+                       
+                    </div>  
+                    <div>
+                       <div class = 'centered-label'><DiMysql id="icon" color="orange" size="4rem" /> MySQL</div>
+                       <div class = 'centered-label'><FaGit id="icon" color="white" size="4rem" /> Git</div>                   
+                       <div class = 'centered-label'><FaReact id="icon" color="lightblue" size="4rem" /> React</div>
                         {/* <FaNpm id="icon" color="red" size="4rem" /> */}
-                        <SiHandlebarsdotjs id="icon" color="white" size="4rem" />
-                        <FaReact id="icon" color="lightblue" size="4rem" />
                         {/* <SiPwa id="icon" color="white" size="4rem" /> */}
-                        <DiMongodb id="icon" color="green" size="4rem" />
+                        {/* <SiHandlebarsdotjs id="icon" color="white" size="4rem" /> */}
                         {/* <SiApollographql id="icon" color="white" size="4rem" /> */}
-                        {/* <DiHeroku id="icon" color="purple" size="4rem" /> */}
-                        
+                        {/* <DiHeroku id="icon" color="purple" size="4rem" /> */}                        
                     </div>
                
             </div>  </p>      
