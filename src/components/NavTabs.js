@@ -5,10 +5,15 @@ import '../styles/NavTabs.css';
 function NavTabs({ currentPage, handlePageChange }) {
   const [isActive, setisActive] = useState(false);
   function MouseOver(event) {
-    event.target.style.background = 'Tomato';
+    event.target.style.background = '#1aaaed';
+    event.target.style.border = "solid #1ba0de 1px";
+    event.target.style.borderRadius = '0 0 10px 10px';
+    
   }
   function MouseOut(event){
     event.target.style.background="black";
+    event.target.style.border = "none";
+
   }
   return (
     <>
@@ -36,6 +41,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             <ul ><li >
             <a onMouseOver={MouseOver} onMouseOut={MouseOut}
               href="#home"
+              data-analytics = "Home"
               onClick={() => handlePageChange('Home')}
               className={`${'navbar-item has-text-white'} currentPage === 'Home' 
           ? 'nav-link active' 
@@ -45,24 +51,39 @@ function NavTabs({ currentPage, handlePageChange }) {
             </a></li><li >
             <a onMouseOver={MouseOver} onMouseOut={MouseOut}
               href="#about"
+              data-analytics = "About"
               onClick={() => handlePageChange('About')}
               className={`${'navbar-item has-text-white'} currentPage === 'About' 
           ? 'nav-link active' 
           : 'nav-link'`}
             >
               About
-            </a></li><li >
+            </a></li>
+            <li >
             <a onMouseOver={MouseOver} onMouseOut={MouseOut}
-              href="#projects"
+              href="#analyticsprojects"
+              data-analytics = "AnalyticsProjects"
+              onClick={() => handlePageChange('AnalyticsProjects')}
+              className={`${'navbar-item has-text-white'} currentPage === 'AnalyticsProjects' 
+          ? 'nav-link active' 
+          : 'nav-link'`}
+            >
+              Analytics Projects
+            </a></li>
+            <li >
+            <a onMouseOver={MouseOver} onMouseOut={MouseOut}
+              href="#webdevprojects"
+              data-analytics = 'Projects'
               onClick={() => handlePageChange('Projects')}
               className={`${'navbar-item has-text-white'} currentPage === 'Projects' 
           ? 'nav-link active' 
           : 'nav-link'`}
             >
-              Projects
+              Web Dev Projects
             </a></li><li >
             <a onMouseOver={MouseOver} onMouseOut={MouseOut}
               href="#contacts"
+              data-analytics = 'Contacts'
               onClick={() => handlePageChange('Contacts')}
               className={`${'navbar-item has-text-white'} currentPage === 'Contacts' 
           ? 'nav-link active' 

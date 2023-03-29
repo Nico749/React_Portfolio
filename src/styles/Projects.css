@@ -1,5 +1,5 @@
 #cardtitle, #cardbody, #cardlink{
-    background-color: #fab66e;
+    background-color: #d9d9d9;
     color:black;
 }
 
@@ -21,13 +21,13 @@
 }
 
 .card {
-    background-color: #fab66e;
+    background-color: #d9d9d9;
 }
 .techlist {
-    background-color: #fab66e;
+    background-color: #d9d9d9;
 }
 .tech {
-    background-color: #fab66e;
+    background-color: #d9d9d9;
     font-style: italic;
     font-weight: bold;
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Projects from './Projects';
+import AnalyticsProjects from './AnalyticsProjects';
 import About from './About';
 import Contacts from './Contacts';
 import Home from './Home'
@@ -15,6 +16,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'About') {
       return <About />;
+    }
+    if (currentPage === 'AnalyticsProjects') {
+      return <AnalyticsProjects />;
     }
     if (currentPage === 'Projects') {
       return <Projects />;

@@ -4,7 +4,7 @@ import { Form } from 'react-bulma-components';
 import { Button } from 'react-bulma-components';
 import '../styles/Contacts.css'
 import '../styles/PortfolioContainer.css'
-import Pdf from '../Demo_photos/Resume Pasqualini New.pdf';
+import Pdf from '../Demo_photos/Resume_Pasqualini.pdf';
 
 
 export default function Contacts() {
@@ -23,7 +23,15 @@ useEffect(() => {
         <Columns.Column offset={4} size={4} className='col'>
           <div >
             <div class="content">
-              <h1 class="title is-size-4 center"><a id="contacts" href="mailto:pasqualininic@gmail.com">Mail</a></h1>
+              <h1 class="title is-size-4 center"><a id="contacts" href="mailto:pasqualininic@gmail.com"  onClick={()=>window.dataLayer.push({
+                    event: 'link_click',
+                    eventProps: {
+                        link_category: "contacts",
+                        link_action: " mail link click",
+                        link_label: "mail",
+                        link_page: window.location.href.split('#').pop()                    
+                    }
+                  })}>Mail</a></h1>
             </div>
           </div>
         </Columns.Column>
@@ -31,7 +39,17 @@ useEffect(() => {
         <Columns.Column offset={4} size={4} className='col'>
           <div >
             <div class="content">
-              <h1 class="title is-size-4 center"><a id="contacts" href=" tel: +61 466505170">Phone</a></h1>
+              <h1 class="title is-size-4 center"><a id="contacts" href=" tel: +61 466505170" onClick={()=>window.dataLayer.push({
+                    event: 'link_click',
+                    eventProps: {
+                        link_category: "contacts",                        
+                        link_action: " phone link click",
+                        link_label: "phone",
+                        link_page: window.location.href.split('#').pop(),
+                        
+                    
+                    }
+                  })}>Phone</a></h1>
             </div>
           </div>
         </Columns.Column>
@@ -39,7 +57,17 @@ useEffect(() => {
         <Columns.Column offset={4} size={4} className='col'>
           <div >
             <div class="content">
-              <h1 class="title is-size-4 center"><a id="contacts" href="https://github.com/Nico749" target="_blank" rel="noopener noreferrer">GitHub Profile</a></h1>
+              <h1 class="title is-size-4 center"><a id="contacts" href="https://github.com/Nico749" target="_blank" rel="noopener noreferrer" onClick={()=>window.dataLayer.push({
+                    event: 'link_click',
+                    eventProps: {
+                        link_category: "contacts",                        
+                        link_action: " github link click",
+                        link_label: "github",
+                        link_page: window.location.href.split('#').pop(),
+                        
+                    
+                    }
+                  })}>GitHub Profile</a></h1>
             </div>
           </div>
         </Columns.Column>
@@ -47,7 +75,15 @@ useEffect(() => {
         <Columns.Column offset={4} size={4} className='col'>
           <div >
             <div class="content">
-              <h1 class="title is-size-4 center"><a id="contacts" href="https://www.linkedin.com/in/nico-pasqualini/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h1>
+              <h1 class="title is-size-4 center"><a id="contacts" href="https://www.linkedin.com/in/nico-pasqualini/" target="_blank" rel="noopener noreferrer"  onClick={()=>window.dataLayer.push({
+                    event: 'link_click',
+                    eventProps: {
+                        link_category: "contacts",
+                        link_action: " linkedin link click",
+                        link_label: "linkedin",
+                        link_page: window.location.href.split('#').pop()                    
+                    }
+                  })}>LinkedIn</a></h1>
             </div>
           </div>
         </Columns.Column>
@@ -55,7 +91,15 @@ useEffect(() => {
         <Columns.Column offset={4} size={4} className='col'>
           <div >
             <div class="content">
-              <h1 class="title is-size-4 center"><a id="contacts" href={Pdf}  target="_blank" rel="noopener noreferrer">Curriculum</a></h1>
+              <h1 class="title is-size-4 center"><a id="contacts" href={Pdf}  target="_blank" rel="noopener noreferrer"  onClick={()=>window.dataLayer.push({
+                    event: 'link_click',
+                    eventProps: {
+                        link_category: "contacts",
+                        link_action: "resume link click",
+                        link_label: "resume",
+                        link_page: window.location.href.split('#').pop()                    
+                    }
+                  })}>Resume</a></h1>
             </div>
           </div>
         </Columns.Column>
