@@ -11,7 +11,7 @@ import { FaHtml5 } from 'react-icons/fa'
 import { DiMongodb } from 'react-icons/di'
 import { DiHeroku } from 'react-icons/di'
 import { DiMysql } from 'react-icons/di'
-import { SiPandas, SiSequelize, SiTableau } from 'react-icons/si'
+import { SiPandas, SiSequelize, SiTableau, SiMicrosoftsqlserver } from 'react-icons/si'
 import { SiPwa } from 'react-icons/si'
 import { SiApollographql } from 'react-icons/si'
 import { SiHandlebarsdotjs } from 'react-icons/si'
@@ -29,6 +29,7 @@ export default function Icons() {
                 
                     <div>
                        <div class = 'centered-label'><SiTableau id="icon" color="white" size="4rem" /> Tableau</div>
+                       <div class = 'centered-label'><SiMicrosoftsqlserver id="icon" color="#c73030" size="4rem" /> SQL Server</div>
                        <div class = 'centered-label'><SiSequelize id="icon" color="#2069fa" size="4rem" /> Sequelize</div>
                        <div class = 'centered-label'><DiMongodb id="icon" color="green" size="4rem" /> MongoDB</div>
                        

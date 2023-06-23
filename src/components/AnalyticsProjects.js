@@ -50,7 +50,7 @@ export default function AnalyticsProjects() {
                       page: window.location.href.split('#').pop()
                   
                   }
-                })}>Click</a> to see the SQL file or have a look at the <a id="cardlink" href="https://public.tableau.com/shared/BPKWHNGQF?:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener noreferrer" 
+                })}>Click</a> to see the SQL file or have a look at the <a id="cardlink" href="https://public.tableau.com/shared/P77N63BRX?:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener noreferrer" 
                 onClick={()=>window.dataLayer.push({
                   event: 'project_click',
                   eventProps: {
