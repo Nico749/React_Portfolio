@@ -23,7 +23,7 @@ useEffect(() => {
         <Columns.Column offset={4} size={4} className='col'>
           <div >
             <div class="content">
-              <h1 class="title is-size-4 center"><a id="contacts" href="mailto:pasqualininic@gmail.com"  onClick={()=>window.dataLayer.push({
+              <h1 class="title is-size-4 center"><a id="contacts" href="mailto:"  onClick={()=>window.dataLayer.push({
                     event: 'link_click',
                     eventProps: {
                         link_category: "contacts",
@@ -39,7 +39,7 @@ useEffect(() => {
         <Columns.Column offset={4} size={4} className='col'>
           <div >
             <div class="content">
-              <h1 class="title is-size-4 center"><a id="contacts" href=" tel: +61 466505170" onClick={()=>window.dataLayer.push({
+              <h1 class="title is-size-4 center"><a id="contacts" href="" onClick={()=>window.dataLayer.push({
                     event: 'link_click',
                     eventProps: {
                         link_category: "contacts",                        
@@ -57,7 +57,7 @@ useEffect(() => {
         <Columns.Column offset={4} size={4} className='col'>
           <div >
             <div class="content">
-              <h1 class="title is-size-4 center"><a id="contacts" href="https://github.com/Nico749" target="_blank" rel="noopener noreferrer" onClick={()=>window.dataLayer.push({
+              <h1 class="title is-size-4 center"><a id="contacts" href=" target="_blank" rel="noopener noreferrer" onClick={()=>window.dataLayer.push({
                     event: 'link_click',
                     eventProps: {
                         link_category: "contacts",                        
@@ -75,7 +75,7 @@ useEffect(() => {
         <Columns.Column offset={4} size={4} className='col'>
           <div >
             <div class="content">
-              <h1 class="title is-size-4 center"><a id="contacts" href="https://www.linkedin.com/in/nico-pasqualini/" target="_blank" rel="noopener noreferrer"  onClick={()=>window.dataLayer.push({
+              <h1 class="title is-size-4 center"><a id="contacts" href="" target="_blank" rel="noopener noreferrer"  onClick={()=>window.dataLayer.push({
                     event: 'link_click',
                     eventProps: {
                         link_category: "contacts",
