@@ -6,16 +6,16 @@ a{
 }
 
 .col{
-    border: solid tomato 2px;
+    border: solid rgba(0, 59, 207, 0.823) 5px;
     border-radius: 25px;
     margin-top: 40px;
 }
 
 a:hover{
-    color: tomato;
+    color: rgba(0, 59, 207, 0.823);
 }
-*{
-    background-color:black;
+/* *{
+    background-color:#4b4545;
     
-}
+} */
 

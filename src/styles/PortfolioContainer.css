@@ -1,7 +1,6 @@
 *{
-    background-color: black;
+    background-color: #4b4545;
 }
-
 
 .lineUp {
     animation: 2s anim-lineUp ease-out;

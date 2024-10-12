@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/NavTabs.css';
 
-
+// style for mouse over and out is declared here 
 function NavTabs({ currentPage, handlePageChange }) {
   const [isActive, setisActive] = useState(false);
   function MouseOver(event) {
@@ -11,7 +11,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     
   }
   function MouseOut(event){
-    event.target.style.background="black";
+    event.target.style.background="#5b6362";
     event.target.style.border = "none";
 
   }
@@ -42,7 +42,10 @@ function NavTabs({ currentPage, handlePageChange }) {
             <a onMouseOver={MouseOver} onMouseOut={MouseOut}
               href="#home"
               data-analytics = "Home"
-              onClick={() => handlePageChange('Home')}
+              onClick={() => {handlePageChange('Home');
+                //make the mobile menu closing when clicking on the item
+                setisActive(!isActive);
+              }}
               className={`${'navbar-item has-text-white'} currentPage === 'Home' 
           ? 'nav-link active' 
           : 'nav-link'  `}
@@ -51,8 +54,18 @@ function NavTabs({ currentPage, handlePageChange }) {
             </a></li><li >
             <a onMouseOver={MouseOver} onMouseOut={MouseOut}
               href="#about"
-              data-analytics = "About"
-              onClick={() => handlePageChange('About')}
+              data-analytics = "About"              
+              onClick={() => {
+                handlePageChange('About');
+                setisActive(!isActive);
+              //   window.dataLayer.push({     //NOT NEEDED IT ANYMORE SINCE CAN GRAB THAT PAGE WITH HISTORY CHANGE ON GTM
+              //     event: 'custom_page_view',
+              //     eventProps: {
+              //        page: window.location.hash
+              //     }
+              //   });
+              }
+            }              
               className={`${'navbar-item has-text-white'} currentPage === 'About' 
           ? 'nav-link active' 
           : 'nav-link'`}
@@ -61,9 +74,20 @@ function NavTabs({ currentPage, handlePageChange }) {
             </a></li>
             <li >
             <a onMouseOver={MouseOver} onMouseOut={MouseOut}
-              href="#analyticsprojects"
+              href="#analytics-projects"
               data-analytics = "AnalyticsProjects"
-              onClick={() => handlePageChange('AnalyticsProjects')}
+              onClick={() => { 
+                handlePageChange('AnalyticsProjects');
+                setisActive(!isActive);
+                // window.dataLayer.push({
+                //   event: 'custom_page_view',
+                //   eventProps: {
+                //      page: window.location.hash
+                //   }
+                // });
+              }
+
+              }
               className={`${'navbar-item has-text-white'} currentPage === 'AnalyticsProjects' 
           ? 'nav-link active' 
           : 'nav-link'`}
@@ -72,9 +96,20 @@ function NavTabs({ currentPage, handlePageChange }) {
             </a></li>
             <li >
             <a onMouseOver={MouseOver} onMouseOut={MouseOut}
-              href="#webdevprojects"
+              href="#web-dev-projects"
               data-analytics = 'Projects'
-              onClick={() => handlePageChange('Projects')}
+              onClick={() => {
+                handlePageChange('Projects');
+                setisActive(!isActive);
+                // window.dataLayer.push({
+                //   event: 'custom_page_view',
+                //   eventProps: {
+                //      page: window.location.hash
+                //   }
+                // });
+              }
+              
+              }
               className={`${'navbar-item has-text-white'} currentPage === 'Projects' 
           ? 'nav-link active' 
           : 'nav-link'`}
@@ -84,7 +119,17 @@ function NavTabs({ currentPage, handlePageChange }) {
             <a onMouseOver={MouseOver} onMouseOut={MouseOut}
               href="#contacts"
               data-analytics = 'Contacts'
-              onClick={() => handlePageChange('Contacts')}
+              onClick={() => {
+                handlePageChange('Contacts');
+                setisActive(!isActive);
+                // window.dataLayer.push({
+                //   event: 'custom_page_view',
+                //   eventProps: {
+                //      page: window.location.hash
+                //   }
+                // });
+              }
+              }
               className={`${'navbar-item has-text-white'} currentPage === 'Contacts' 
           ? 'nav-link active' 
           : 'nav-link'`}

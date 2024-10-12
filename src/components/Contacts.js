@@ -6,7 +6,7 @@ import '../styles/Contacts.css'
 import '../styles/PortfolioContainer.css'
 import Pdf from '../Demo_photos/Resume_Pasqualini.pdf';
 
-
+// removed phone numbe, linkedin profile and github links as well email adress 
 export default function Contacts() {
   //loads the page at the top 
 useEffect(() => {
@@ -20,7 +20,7 @@ useEffect(() => {
       <Columns class="is-vcentered">
 
         <h1 id="tit" className='lineUp'>CONTACTS</h1>
-        <Columns.Column offset={4} size={4} className='col'>
+        <Columns.Column offset={3} size={6} className='col'>
           <div >
             <div class="content">
               <h1 class="title is-size-4 center"><a id="contacts" href="mailto:"  onClick={()=>window.dataLayer.push({
@@ -36,7 +36,7 @@ useEffect(() => {
           </div>
         </Columns.Column>
 
-        <Columns.Column offset={4} size={4} className='col'>
+        <Columns.Column offset={3} size={6} className='col'>
           <div >
             <div class="content">
               <h1 class="title is-size-4 center"><a id="contacts" href="" onClick={()=>window.dataLayer.push({
@@ -54,10 +54,10 @@ useEffect(() => {
           </div>
         </Columns.Column>
 
-        <Columns.Column offset={4} size={4} className='col'>
+        <Columns.Column offset={3} size={6} className='col'>
           <div >
             <div class="content">
-              <h1 class="title is-size-4 center"><a id="contacts" href=" target="_blank" rel="noopener noreferrer" onClick={()=>window.dataLayer.push({
+              <h1 class="title is-size-4 center"><a id="contacts" href=" " target="_blank" rel="noopener noreferrer" onClick={()=>window.dataLayer.push({
                     event: 'link_click',
                     eventProps: {
                         link_category: "contacts",                        
@@ -72,7 +72,7 @@ useEffect(() => {
           </div>
         </Columns.Column>
 
-        <Columns.Column offset={4} size={4} className='col'>
+        <Columns.Column offset={3} size={6} className='col'>
           <div >
             <div class="content">
               <h1 class="title is-size-4 center"><a id="contacts" href="" target="_blank" rel="noopener noreferrer"  onClick={()=>window.dataLayer.push({
@@ -88,7 +88,7 @@ useEffect(() => {
           </div>
         </Columns.Column>
 
-        <Columns.Column offset={4} size={4} className='col'>
+        <Columns.Column offset={3} size={6} className='col'>
           <div >
             <div class="content">
               <h1 class="title is-size-4 center"><a id="contacts" href={Pdf}  target="_blank" rel="noopener noreferrer"  onClick={()=>window.dataLayer.push({
